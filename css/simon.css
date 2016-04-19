@@ -1,0 +1,166 @@
+.wrap{
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+}
+
+.game{
+    margin-top: 10px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.top{
+    margin-top: 5px;
+}
+
+.bottom{
+    
+}
+
+.green{
+    display: inline-block;
+    background-color: green;
+    width: 240px;
+    height: 240px;
+    border-radius: 240px 0px 0 0; 
+    padding: 10px;
+    cursor: pointer;
+}
+
+.green:hover{
+    border: 5px blue solid;
+}
+
+.yellow{
+    display: inline-block;
+    background-color: yellow;
+    width: 240px;
+    height: 240px;
+    border-radius: 0 0 0 240px; 
+    padding: 10px;
+    cursor: pointer;
+}
+
+.yellow:hover{
+    border: 5px red solid;
+}
+
+.blue{
+    display: inline-block;
+    background-color: blue;
+    width: 240px;
+    height: 240px;
+    border-radius: 0 0 240px 0; 
+    padding: 10px;  
+    cursor: pointer;
+}
+
+.blue:hover{
+    border: 5px green solid;
+}
+
+.red{
+    display: inline-block;
+    background-color: red;
+    width: 240px;
+    height: 240px;
+    border-radius: 0 240px 0 0; 
+    padding: 10px;
+    cursor: pointer;
+}
+
+.red:hover{
+    border: 5px yellow solid;
+}
+
+.start{
+    margin-top: 10px !important;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto !important;
+    border: solid white;
+    cursor: pointer;
+    color: white;
+}
+
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    border: 2px solid rgb(0, 155, 255);
+}
+
+.modalContent{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+    color: white;
+}
+
+.modalContent1{
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.hvr-pulse-grow {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}

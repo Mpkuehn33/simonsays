@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/simon.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/simon.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <h2>Simon Says</h2>
+            <div class="game">
+                <div id="top" class="top">
+                    <div id="green" class="green" onclick="addGreen()"></div>
+                    <div id="red" class="red" onclick="addRed()"></div>
+                </div>
+                <div id="bottom" class="bottom">
+                    <div id="yellow" class="yellow" onclick="addYellow()"></div>
+                    <div id="blue" class="blue" onclick="addBlue()"></div>
+                </div>
+            </div>
+            <div id="start" class="start hvr-pulse-grow" onclick="newGame()">Start Game</div>
+        </div>
+        <div class="modal">
+            <p class="modalContent">>>>GAME OVER<<< </p>
+            <div id="rounds" class="modalContent1"></div>
+            <div class="start hvr-pulse-grow" onclick="newGame()">Play Again</div>
+        </div>
+    </body>
+</html>
